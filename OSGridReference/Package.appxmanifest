@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="2087c959-d0c7-4ee3-8935-0e72095b69f1" Publisher="CN=anwigley" Version="1.0.0.0" />
+  <Identity Name="Applicious.OSGridReference" Publisher="CN=426AFF0D-09CF-438E-8140-1F79DD469DD6" Version="1.1.0.0" />
   <mp:PhoneIdentity PhoneProductId="2087c959-d0c7-4ee3-8935-0e72095b69f1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>OSGridReference</DisplayName>
-    <PublisherDisplayName>anwigley</PublisherDisplayName>
+    <PublisherDisplayName>Applicious</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
