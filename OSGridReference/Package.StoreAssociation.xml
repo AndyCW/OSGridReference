@@ -358,9 +358,9 @@
     <Language Code="zu-za" InMinimumRequirementSet="true" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>Applicious.OSGridReference</MainPackageIdentityName>
+    <MainPackageIdentityName>Applicious.42043AE3A0BA4</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>OSGridReference</ReservedName>
+      <ReservedName>OS Grid Reference</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
@@ -385,6 +385,7 @@
     <MainPackageIdentityName>Applicious.JumpStartDemo001</MainPackageIdentityName>
     <MainPackageIdentityName>Applicious.JumpStartDemo002</MainPackageIdentityName>
     <MainPackageIdentityName>Applicious.133196C700A9</MainPackageIdentityName>
+    <MainPackageIdentityName>Applicious.OSGridReference</MainPackageIdentityName>
     <MainPackageIdentityName>Applicious.TechReady22AndyOneDriveDemo</MainPackageIdentityName>
     <MainPackageIdentityName>Applicious.TestBetaStuffAndy</MainPackageIdentityName>
     <MainPackageIdentityName>Applicious.ToDo10240</MainPackageIdentityName>
@@ -395,5 +396,5 @@
     <MainPackageIdentityName>Applicious.W10MVAPushTriggerDemo</MainPackageIdentityName>
     <MainPackageIdentityName>Applicious.WAMtest</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NBLGGH51X7W" />
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NBLGGH51X61" />
 </StoreAssociation>

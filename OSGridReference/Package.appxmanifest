@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="Applicious.OSGridReference" Publisher="CN=426AFF0D-09CF-438E-8140-1F79DD469DD6" Version="1.1.0.0" />
+  <Identity Name="Applicious.42043AE3A0BA4" Publisher="CN=426AFF0D-09CF-438E-8140-1F79DD469DD6" Version="1.1.5.0" />
   <mp:PhoneIdentity PhoneProductId="2087c959-d0c7-4ee3-8935-0e72095b69f1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>OSGridReference</DisplayName>
+    <DisplayName>OS Grid Reference</DisplayName>
     <PublisherDisplayName>Applicious</PublisherDisplayName>
     <Logo>assets\Store\StoreLogo.png</Logo>
   </Properties>
@@ -20,6 +20,11 @@
         </uap:DefaultTile>
         <uap:SplashScreen Image="assets\SplashScreen\SplashScreen.png" />
       </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="osgridreference" />
+        </uap:Extension>
+      </Extensions>
     </Application>
   </Applications>
   <Capabilities>

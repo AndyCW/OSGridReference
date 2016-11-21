@@ -79,6 +79,13 @@ namespace OSGridReference
             }
         }
 
+        protected override void OnActivated(IActivatedEventArgs args)
+        {
+            base.OnActivated(args);
+            CortanaSkills skills = new CortanaSkills();
+            skills.Activated(args);
+        }
+
         /// <summary>
         /// Invoked when Navigation to a certain page fails
         /// </summary>

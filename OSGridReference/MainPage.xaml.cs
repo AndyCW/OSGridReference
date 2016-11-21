@@ -44,7 +44,17 @@ namespace OSGridReference
         {
             base.OnNavigatedTo(e);
 
-            DoItButton.IsEnabled = true;
+            if (e.Parameter?.ToString() == "protocol")
+            {
+                if (DoItButton.IsEnabled)
+                {
+                    DoItButton_Click(this, null);
+                }
+            }
+            else
+            {
+                DoItButton.IsEnabled = true;
+            }
         }
 
 
@@ -57,6 +67,8 @@ namespace OSGridReference
             {
                 case GeolocationAccessStatus.Allowed:
                     NotifyUser("Waiting for update...", NotifyType.StatusMessage);
+
+                    myProgressRing.IsActive = true;
 
                     // If DesiredAccuracy or DesiredAccuracyInMeters are not set (or value is 0), DesiredAccuracy.Default is used.
                     _geolocator = new Geolocator { DesiredAccuracyInMeters = _desireAccuracyInMetersValue };
@@ -73,8 +85,11 @@ namespace OSGridReference
                     //await new MessageDialog("OS grid reference = " +
                     //          osRef.ToSixFigureString()).ShowAsync();
 
-                    var dlg = new GridRefDialog(osRef.ToTenFigureString());
+                    var dlg = new GridRefDialog(osRef.ToSixFigureString());
                     dlg.Closed += (d, a) => DoItButton.IsEnabled = true;
+
+                    myProgressRing.IsActive = false;
+
                     dlg.ShowAsync();
                     break;
 
